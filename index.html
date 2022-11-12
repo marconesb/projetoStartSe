@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Pesquisa de Interesses</title>
+    
+</head>
+
+<body>
+    <nav class="container0">
+        <header><img src="image.png" alt="Logo"></header>
+        <section class="nav-items">
+            <button class="links"><a href=#home1>Home</a></button>
+            <button class="links"><a href=#sobre>Sobre</a></button>
+            <button class="links"><a href=#form>Formulário</a></button>
+        </section>
+    </nav>
+    <section id="home1">
+        <div class="container1">
+            <div class="column-left">
+                <h1>Só projetos incríveis</h1>
+                <p>
+                    Entre em contato pelo formulário para saber mais sobre aplicações de excelência.
+                </p>
+                <a id="CTA-button" href="#form">Comece agora!</a>
+            </div>
+            <picture class="column-right">
+                <img src="Gif1.gif" alt="illustration" id="home-image"/>
+            </picture>
+        </div>
+    </section>
+    <article id="sobre" class="artigo">
+     <section class="Frontend">
+             <h1>Frontend Development</h1>
+        <p>✔  HTML</p>
+        <p>✔  JAVASCRIPT</p>
+        <P>✔ CSS</P>
+
+     </section>
+
+     <section class="Backend">
+            <h1>Backend Development</h1> 
+       
+        <p>✔ NODEJS</p>
+        <p>✔ SQL</p>
+        <p>✔ MongoDB</p>
+     </section>
+     <p></p>
+    </article>
+    <section id="home2">
+    <div class="container2">
+        <div class="form-image">
+            <img src="Gif2.gif" alt="">
+        </div>
+        <form id="form" action="http://google.com">
+            <section>
+                <h2>Formulário de Interesses</h2>
+                <div class="TextArea">
+                    <p>Digite seu nome:
+                        <input type="text" name="userName" size=40 maxlength=40 placeholder=" Digite seu nome completo aqui..">
+                    </p>
+                    <p>Digite sua profissão:
+                        <input type="text" name="userJob" size=40 maxlength=40 placeholder=" Digite sua profissão aqui...">
+                    </p>
+                    <p>Nos conte um pouquinho sobre você:
+                        <textarea class="CaixaDeComentario" name="userComment" cols="30" rows="4" placeholder="     Digite aqui..."></textarea>
+                    </p>
+                </div>
+                
+                <form>
+                    <p> Você faz exercícios regularmente?<br>
+                    <input type="radio" id="Sim" name="Resposta" value="Sim">
+                    <label for="Sim">Sim</label><br>
+                    <input type="radio" id="Nao" name="Resposta" value="Nao">
+                    <label for="Nao">Nao</label><br>
+                    </p>
+                </form> 
+    
+                
+                <p>Por onde você lê sobre seus tópicos favoritos?<br><br>
+                    <input type="checkbox" name="Books">Livros
+                    <input type="checkbox" name="Web">Sites
+                    <input type="checkbox" name="Apps">Aplicativos
+                    <input type="checkbox" name="Magazines">Revistas
+                </p>
+               
+    
+                <p>Qual gênero de filmes que você mais gosta?
+                    <select class="option" name="moviePref">
+                       <option></option>
+                        <option value="1">Comédia</option>
+                        <option value="2">Romance</option>
+                        <option value="3">Drama</option>
+                        <option value="4">Terror</option>
+                        <option value="5">Ação</option>
+                    </select>
+                </p>
+                <input  id="form-button" type=submit value="ENVIAR">
+            </section>
+        </form>
+    </div>
+    </section>
+</body>
+
+
+</html>
